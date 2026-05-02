@@ -8,7 +8,7 @@ const ejsMate=require("ejs-mate");
 const wrapAsync=require("./utils/wrapAsync.js");
 const Review=require("./models/review.js");
 const{listingSchema,reviewSchema}=require("./schema.js");
-const MONGO_URL="mongodb://127.0.0.1:27017/wonderlust";
+const MONGO_URL = "mongodb+srv://anandkumar6204aa_db_user:anand123@cluster0.7p5mw6i.mongodb.net/wonderlust";
 const ExpressError=require("./utils/ExpressError.js");
 app.use(express.json());
 main()
